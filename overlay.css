@@ -1,0 +1,70 @@
+.overlay
+{
+	-webkit-animation:slidedown-webkit 0.3s;
+	-moz-animation:slidedown-moz 0.3s;
+	-ie-animation:slidedown-ie 0.3s;
+	animation:slidedown 0.3s;
+	
+	position:fixed;
+	top:0;
+	width:740px;
+}
+
+.overlay h2,
+.overlay nav,
+.overlay ul
+{
+	display:inline;
+}
+
+@keyframes slidedown
+{
+	from
+	{
+		top:-30px;
+	}
+	
+	to
+	{
+		top:0;
+	}
+}
+
+@-ie-keyframes slidedown-ie
+{
+	from
+	{
+		top:-30px;
+	}
+	
+	to
+	{
+		top:0;
+	}
+}
+
+@-moz-keyframes slidedown-moz
+{
+	from
+	{
+		top:-30px;
+	}
+	
+	to
+	{
+		top:0;
+	}
+}
+
+@-webkit-keyframes slidedown-webkit
+{
+	from
+	{
+		top:-30px;
+	}
+	
+	to
+	{
+		top:0;
+	}
+}

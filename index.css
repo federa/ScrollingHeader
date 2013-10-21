@@ -1,0 +1,56 @@
+html,body
+{
+	margin: 0;
+	padding:0;
+	font-family:'Roboto Slab', serif;
+	font-size:16px;
+}
+
+.wrapper
+{
+	margin:0 auto;
+	min-width:320px;
+	max-width:740px;	
+	text-align:center;
+}
+
+.header
+{
+	background-color:#EEEEEE;
+	border-bottom:2px groove #454545;
+	text-align:left;
+}
+
+.header h2
+{
+	margin-top:0;
+}
+
+ul
+{
+	margin:0;
+	padding:0;
+}
+
+li
+{
+	display:inline;
+	list-style:none;
+}
+
+.content
+{
+	line-height:30px;
+	text-align:left;
+}
+
+.content h1
+{
+	font-size:36px;
+	font-style:italic;
+}
+
+.content p
+{
+	text-indent:3em;
+}
